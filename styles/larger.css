@@ -1,11 +1,16 @@
 @media only screen and (min-width: 38rem) {
 
+header , main , footer, nav {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 header {
     grid-template-columns: 24px auto;
 }
 
 
-.hamburger {
+.hamburguer {
         display: none;
 }
 
