@@ -5,20 +5,29 @@
     <!-- HEAD TAGS    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Steven Mondragon">
+    <meta name="description" content="A Website Page about Steven Mondragon academic career">
+    <title>Personal Blog | WDD231</title>
+
+    <!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
 
 
 
     <!--  STYLES  -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <!-- SCRIPTS -->
 
     <script src="scripts/navigation.js" defer></script>
-
-
+    <script src="scripts/courses-cards.js" defer></script>
+    <script src="scripts/get-date.js" defer></script>
 
 </head>
 
@@ -29,8 +38,8 @@
     
     <!--HEADER-->
     <header>
-        <img src="images/mando.svg" alt="Site Logo" width="512" height="512">
-        <span>GAME CREW</span>
+        <img src="images/icon-personal-place.svg" alt="Site Logo" width="512" height="512">
+        <span>MY PERSONAL PLACE</span>
         <button id="ham-btn" class="hamburguer"></button>
     </header>
 
@@ -38,26 +47,63 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Suscribe</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
         </ul>
-
-
     </nav>
 
 
 
     <main>
         <h1>HOME</h1>
+        <div class="main-container">
+
+        
+        <section class="personal">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ad hic et adipisci asperiores repellat incidunt explicabo! Ullam consequatur sint soluta beatae, optio exercitationem, aspernatur nobis facilis, recusandae neque non!</p>
+        </section>
+
+
+
+        <section class="own-image">
+            <h2>Student Photo</h2>
+            <img src="images/personal-image.webp" alt="" width="200" height="450">
+        </section>
+
+        </div>
+        <section id="courses" class="list-courses" >
+            <h2>Web Certificate Courses</h2>
+
+            <nav>
+                <ul id="coursesNav" class="courses-nav">
+                    <li><a id="all">All</a></li>
+                    <li><a id="cse">CSE</a></li>
+                    <li><a id="wdd">WDD</a></li>
+                </ul>
+            </nav>
+
+            <section id="coursesBar" class="courses-bar"></section>
+
+
+            <section class="counter" id="counterText"></section>
+
+        </section>
+
+
     </main>
 
 
 
     <footer>
         <div class="social">
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+            <a href="" target="_blank"><img src="images/icon-X.svg" alt="" width="24" height="24"></a>
+            <a href="" target="_blank"><img src="images/icon-linkedin.svg" alt="" width="24" height="24"></a>
+            <a href="" target="_blank"><img src="images/icon-github.svg" alt="" width="24" height="24"></a>
+        </div>
+        <div class="foot-text">
+            <p>&copy; <span id="currentyear"></span> 🎶Steven Mondragon🎶 Piura, Perú</p>
+            <p>Last Change: <span id="lastModified"></span></p>
         </div>
     </footer>
 

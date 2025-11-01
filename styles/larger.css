@@ -28,5 +28,28 @@ header {
     border: none;
 }
 
+.main-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.courses-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses-bar>section{
+    flex: 0 0 calc(30% - 10px);
+}
+
+.courses-nav{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.courses-nav>li{
+    flex: 0 0 calc(27% - 10px);
+}
 
 }
