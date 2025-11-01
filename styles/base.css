@@ -43,3 +43,48 @@ header span {
 .hamburguer.show::before{
     content: "\00D7";
 }
+
+
+/* NAVIGATION BAR */
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a{
+    display: block;
+    padding: .8rem 10px;
+    /*COLOR!!*/
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+
+
+.navigation a:hover{
+    background-color: aquamarine;
+}
+
+.navigation li.current{
+    background-color: rgb(187, 209, 241)
+}
+
+
+
+/*TITLES*/
+
+h1 {
+    margin-left: 10px;
+}

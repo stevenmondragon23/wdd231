@@ -15,10 +15,18 @@ header {
 }
 
 
+.navigation{
+    display: block;
+    border-bottom: solid 1px #ddd;
+}
 
+.navigation ul {
+    display: flex;
+}
 
-
-
+.navigation a{
+    border: none;
+}
 
 
 }
