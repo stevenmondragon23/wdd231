@@ -1,0 +1,84 @@
+/*
+
+Primary Color: #0A74DA
+Secondary Color: #1E2A78
+Background Color: #F8FAFC
+Text Color: #1A1A1A
+Font Family: "Playfair Display", "Helvetica Neue", sans-serif
+
+*/
+
+:root {
+
+    /*  Color  */
+  --color-primary: #0A74DA;
+  --color-secondary: #1E2A78;
+  --color-background: #F8FAFC;
+  --color-text: #1A1A1A;
+
+    /* Typography */
+  
+  --font-family-main: "Playfair Display", "Helvetica Neue", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* BACKGROUNS COLORS */
+
+header{
+    background-color: var(--color-secondary);
+}
+
+
+/* HEADER */
+
+header{
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    align-items: end;
+
+}
+
+header img{ 
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span{
+    font-size: 1.2rem;
+    color: var(--color-background);
+}
+
+/* HAMBURGUER */
+
+.hamburguer{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-background);
+}
+
+.hamburguer::before{
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburguer.show::before{
+    content: "\00D7";
+}
+
+
+/* NAV */
+
+.navigation{
+    display: none;
+}
