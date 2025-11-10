@@ -87,13 +87,84 @@ header span{
 
 /*HERO IMAGE*/
 
+.heropart{
+    margin: 0;
+    padding: 0;
+}
+
 .heropart img{
     width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
 }
 
-.heropart h1{
-    position: absolute;
-    justify-self: end;
+
+
+/* CENTRAL PART*/
+
+.changing-view {
+    display: flex;
+    background-color: var(--color-primary);
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.changing-view button{
+    padding: 2px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--color-secondary);
+    cursor: pointer;
+}
+
+
+.changing-view button:hover{
+    background-color: rgba(241, 241, 216, 0.726);
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    padding: 1rem 0 0 0;
+    text-align: center;
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--color-background) solid 1px;
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.social img{
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover{
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+
+.foot-text{
+    display: block;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    
 }

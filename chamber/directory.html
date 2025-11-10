@@ -33,6 +33,11 @@
 
 
     <!--   SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/get-date.js" defer></script>
+
+
+
 
 </head>
 
@@ -78,15 +83,32 @@
                 <source media="(max-width: 650px)" srcset="images/hero-image.webp">
                 <img src="" alt="Hero Imgage">
             </picture>
-            <h1>COMIC<wbr>VAULT</h1>
+        </section>
+
+        
+        <section class="changing-view">
+            <button class="grd-view" id="grd-btn">GRID</button>
+
+            <button class="list-view" id="list-btn">LIST</button>
+
+
         </section>
 
 
 
-
     </main>
-
-    <footer></footer>
+<!-- FOOTER -->
+    <footer>
+        <div class="social">
+            <a href="https://x.com/mondra_16" target="_blank"><img src="images/icon-twitter.svg" alt="Twitter icon" width="24" height="24"></a>
+            <a href="www.linkedin.com/in/steven-mondra" target="_blank"><img src="images/icon-linkedin.svg" alt="Linkedlin icon" width="24" height="24"></a>
+            <a href="https://github.com/stevenmondragon23" target="_blank"><img src="images/icon-github.svg" alt="Github icon" width="24" height="24"></a>
+        </div>
+        <div class="foot-text">
+            <p>&copy; <span id="currentyear"></span> 🎶Steven Mondragon🎶 Piura, Perú</p>
+            <p>Last Change: <span id="lastModified"></span></p>
+        </div>
+    </footer>
     
 </body>
 </html>
