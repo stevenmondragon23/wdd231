@@ -82,3 +82,18 @@ header span{
 .navigation{
     display: none;
 }
+
+
+
+/*HERO IMAGE*/
+
+.heropart img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.heropart h1{
+    position: absolute;
+    justify-self: end;
+}
