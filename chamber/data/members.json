@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Entel Peru S.A.",
+    "address": "Av. República de Colombia 791, San Isidro, Lima, Peru",
+    "phone": "+51 1 611 1111",
+    "website": "https://www.entel.pe/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Entel_logo_pe.png",
+    "membershipLevel": 3,
+    "description": "Mobile and business telecom"
+  },
+  {
+    "name": "Claro Peru S.A.",
+    "address": "Av. Nicolás Arriola 480, La Victoria, Lima, Peru",
+    "phone": "+51 1 613 1000",
+    "website": "https://www.claro.com.pe/",
+    "image": "https://1000marcas.net/wp-content/uploads/2021/02/Claro-Logo-2003.png",
+    "membershipLevel": 3,
+    "description": "Mobile and connectivity services"
+  },
+  {
+    "name": "Telefónica del Peru (Movistar)",
+    "address": "Av. Arequipa 1155, Santa Beatriz, Lima, Peru",
+    "phone": "+51 1 470 1616",
+    "website": "https://www.movistar.com.pe/",
+    "image": "https://1000marcas.net/wp-content/uploads/2019/12/logo-Movista.png",
+    "membershipLevel": 3,
+    "description": "Telecom and home internet"
+  },
+  {
+    "name": "Gloria S.A.",
+    "address": "Av. República de Panamá 2461, La Victoria, Lima, Peru",
+    "phone": "+51 1 219 5000",
+    "website": "https://www.gloria.com.pe/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Leche_Gloria_logo.svg/2560px-Leche_Gloria_logo.svg.png",
+    "membershipLevel": 2,
+    "description": "Dairy and Peruvian foods"
+  },
+  {
+    "name": "Coca-Cola Peru (Arca Continental Lindley)",
+    "address": "Av. Argentina 1000, Callao, Peru",
+    "phone": "+51 1 613 5555",
+    "website": "https://www.coca-cola.com.pe/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png",
+    "membershipLevel": 3,
+    "description": "Soft drinks and beverages"
+  },
+  {
+    "name": "Prosegur Peru S.A.",
+    "address": "Av. República de Panamá 3895, Surquillo, Lima, Peru",
+    "phone": "+51 1 611 9300",
+    "website": "https://www.prosegur.com.pe/",
+    "image": "https://firstjob.me/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVNUQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d18ea99cb8eb32a9db67a763eed4070c74ef9b69/d90637c44728dcecf9cb4f24173a03dc_logo_prosegur_amarillo_rgb.png",
+    "membershipLevel": 2,
+    "description": "Private security and logistics"
+  },
+  {
+    "name": "Backus and Johnston S.A.A.",
+    "address": "Av. Nicolás Ayllón 3986, Ate, Lima, Peru",
+    "phone": "+51 1 315 3000",
+    "website": "https://www.backus.pe/",
+    "image": "https://images.seeklogo.com/logo-png/1/2/backus-johnston-logo-png_seeklogo-15357.png",
+    "membershipLevel": 1,
+    "description": "Leading Peruvian brewery"
+  }
+]

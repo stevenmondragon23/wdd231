@@ -123,6 +123,67 @@ header span{
     background-color: rgba(241, 241, 216, 0.726);
 }
 
+/* JSON*/
+
+.cards{
+    text-align: center;
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+}
+
+.cards div{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 4px 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*FOOTER*/

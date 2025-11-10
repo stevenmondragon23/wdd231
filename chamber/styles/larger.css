@@ -1,0 +1,53 @@
+@media only screen and (min-width: 38rem){
+
+header , main , footer, nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    grid-template-columns: 24px auto 50px;
+}
+
+
+    /*HAMBURGUER RESPONSIVE*/
+
+.hamburguer{
+    display: none;
+}
+
+.navigation{
+    display: block;
+    list-style-type: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation ul {
+    display: flex;
+    color: white;
+}
+
+.navigation a{
+    border: none;
+}
+
+
+
+/*CARDS*/
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards>div{
+    flex: 0 0 calc(30% - 10px);
+}
+
+
+
+
+
+
+
+}
