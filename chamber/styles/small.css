@@ -25,18 +25,10 @@ Font Family: "Playfair Display", "Helvetica Neue", sans-serif
 }
 
 
-
-
-/* BACKGROUNS COLORS */
-
-header{
-    background-color: var(--color-secondary);
-}
-
-
 /* HEADER */
 
 header{
+    background-color: var(--color-secondary);
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
