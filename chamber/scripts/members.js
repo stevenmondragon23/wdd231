@@ -31,7 +31,7 @@ function displayMembers(members) {
       <p><strong>Address:</strong> ${member.address}</p>
       <p><strong>Phone:</strong> ${member.phone}</p>
       <p><strong>Website:</strong> <a href="${member.website}" target="_blank">${member.website}</a></p>
-      <p>${member.description}</p>
+      <p id="description">${member.description}</p>
     `;
     container.appendChild(card);
   });

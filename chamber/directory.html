@@ -36,6 +36,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/get-date.js" defer></script>
     <script src="scripts/members.js" defer></script>
+    <script src="scripts/display.js" defer></script>
 
 
 
@@ -82,18 +83,18 @@
         <section class="heropart">
             <picture>
                 <source media="(max-width: 650px)" srcset="images/hero-image.webp">
-                <img src="" alt="Hero Imgage">
+                <img src="images/hero-larger-directory.webp" alt="Hero Imgage">
             </picture>
         </section>
 
         
-        <section class="changing-view">
+        <section id="display" class="changing-view">
             <button class="grd-view" id="grd-btn">GRID</button>
 
-            <button class="list-view" id="list-btn">LIST</button>
+            <button  id="list-btn">LIST</button>
         </section>
 
-        <section class ="cards" id="cards"></section>
+        <section class="cards" id="cards"></section>
 
 
     </main>

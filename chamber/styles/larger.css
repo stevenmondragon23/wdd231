@@ -6,7 +6,7 @@ header , main , footer, nav {
 }
 
 header{
-    grid-template-columns: 24px auto 50px;
+    grid-template-columns: 24px auto auto;
 }
 
 
@@ -18,17 +18,23 @@ header{
 
 .navigation{
     display: block;
-    list-style-type: none;
-    border-bottom: solid 1px #ddd;
 }
 
 .navigation ul {
     display: flex;
+    gap: 15px;
+    list-style-type: none;
     color: white;
+   
 }
 
 .navigation a{
-    border: none;
+    text-decoration: none;
+    padding: 0px 6px;
+    background-color: #F8FAFC;
+    color: black;
+    border: 2px solid #0A74DA;
+    border-radius: 7px;
 }
 
 
@@ -45,6 +51,16 @@ header{
 }
 
 
+.list-view{
+    display: grid;
+    
+}
+
+.list-view div{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 
