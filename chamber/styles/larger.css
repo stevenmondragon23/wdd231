@@ -18,23 +18,15 @@ header{
 
 .navigation{
     display: block;
+    border-bottom: solid 1px #ddd;
 }
 
 .navigation ul {
     display: flex;
-    gap: 15px;
-    list-style-type: none;
-    color: white;
-   
 }
 
 .navigation a{
-    text-decoration: none;
-    padding: 0px 6px;
-    background-color: #F8FAFC;
-    color: black;
-    border: 2px solid #0A74DA;
-    border-radius: 7px;
+    border: none;
 }
 
 
