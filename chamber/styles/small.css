@@ -192,11 +192,61 @@ header span{
 
 
 
+/*HOME PAGE*/
+
+
+/*MAIN SECTION*/
+
+.home-container{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.home-container section{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.home-container section h2{
+    margin: 0;
+    padding: 2px;
+    background-color: var(--color-background);
+    border: 1px solid black;
+}
+
+.weather{
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.currentWeather{
+    display: flex;
+}
+
+.currentWeather img{
+    justify-items: center;
+    width: 50%;
+    height: auto;
+}
 
 
 
 
+/* INFORMATION */
 
+.information{
+    text-align: start;
+    margin: 2px;
+}
+
+#captionDesc{
+    text-transform: capitalize;
+}
 
 
 
@@ -276,4 +326,15 @@ footer {
     padding: 10px;
     margin: 10px 0 0 0;
     
+}
+
+
+/*CARDS*/
+
+.randomCards{
+    display: block;
+}
+
+.randomCards{
+    justify-content: center;
 }

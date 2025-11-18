@@ -55,6 +55,28 @@ header{
 }
 
 
+/*HOME PAGE*/
+
+/*MAIN SECTION*/
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-container>section{
+    flex: 0 0 calc(30% - 10px);
+}
+
+#randomMembers{
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
