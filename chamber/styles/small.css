@@ -105,8 +105,9 @@ header span{
 /*HERO IMAGE*/
 
 .heropart{
+    position: relative;
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
 
 .heropart img{
@@ -337,4 +338,30 @@ footer {
 
 .randomCards{
     justify-content: center;
+}
+
+
+
+/*KEYNOTE BUTTON*/
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: var(--color-background); 
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ddd; 
+}
+
+.cta-overlay {
+    position: absolute;
+    top: 50%;      /* centra verticalmente */
+    left: 80%;     /* centra horizontalmente */
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
