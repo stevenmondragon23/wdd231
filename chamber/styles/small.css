@@ -252,9 +252,11 @@ header span{
 
 
 
+/*WAY FINDING */
 
-
-
+.navigation li.current{
+    background-color: var(--color-primary)
+}
 
 
 
