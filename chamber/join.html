@@ -6,8 +6,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Piura Chamber of Commerce | Directory </title>
-    <meta name="description" content="Grow your business with the Chamber of Commerce. Access services, training, and networking to strengthen your company and community.">
+    <title>Join the Chamber | Membership Application</title>
+    <meta name="description" content="Join the Chamber of Commerce and access resources, events, and business support. Sign up for a membership to strengthen your organization and community.">
     <meta name="author" content="Steven Mondragon">
 
 
@@ -35,8 +35,8 @@
     <!--   SCRIPTS -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/get-date.js" defer></script>
-    <script src="scripts/wheater.js" defer></script>
     <script src="scripts/form-date.js" defer></script>
+    <script src="scripts/modal.js"></script>
     
 
 
@@ -72,64 +72,154 @@
             </ul>
         </nav>
 
+    <div class="centerpart">
         <section class="form">
             <form method="get" action="thankyou.html">
-
+                <h2>Member Sign Up</h2>
                 <!--1 NAME-->
+
+                <div> 
                 <label for="firstName">First Name:</label>
                 <input type="text" title="firstName" id="firstName" name="firstName" autocomplete="given-name" required>
-                
+                </div>
+
                 <!--LAST NAME -->
+                <div>
                 <label for="lastName">Last Name:</label>
                 <input type="text" title="lastName"  id="lastName" name="lastName" autocomplete="family-name" required>
-
+                </div>
                 <!--ORGANIZATIONAL TITLE-->
+                <div>
                 <label for="title">Organizational Title:</label>
                 <input type="text" title="title" id="title" name="title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
-
+                </div>
                 <!-- EMAIL -->
+                <div>
                 <label for="email">Email Address:</label>
                 <input type="email" title="Email Address" id="email" name="email" autocomplete="email" placeholder="aaa@gmail.com" required>
-
+                </div>
                 <!--TELEPHONE -->
-
+                <div>
                 <label for="telephone">Phone Number:</label>
                 <input type="tel" name="telephone" id="telephone"  title="telephone" autocomplete="tel" required>
-
+                </div>
 
                 <!-- organization name -->
-
+                <div>
                 <label for="organizationName">Business/Organization Name:</label>
                 <input type="text" id="organizationName" name="organizationName" autocomplete="organization" title="Enter the name of the organization" required>
-
+                </div>
 
 
 
                 <!--MEMBERSHIP LEVEL-->
+                <div>
                 <label for="membership">Membership Level:</label>
                 <select id="membership" name="membership" title="Select a membership level" required>
+                <option value="">--SELECT ONE HERE--</option>
                 <option value="np">NP Membership (no fee)</option>
                 <option value="bronze">Bronze Membership</option>
                 <option value="silver">Silver Membership</option>
                 <option value="gold">Gold Membership</option>
                 </select>
+                </div>
 
                 <!-- Organization Description -->
+                <div>
                 <label for="description">Organization Description:</label>
-                <textarea id="description" name="description" title="Provide a brief description of the organization" rows="4"required></textarea>
-
+                <textarea id="description" name="description" title="Provide a brief description of the organization" rows="4" required></textarea>
+                </div>
                 <!-- Timestamp (hidden) -->
+                <div>
                 <input type="hidden" id="timestamp" name="timestamp">
-
+                </div>
                 
                 <!--BUTTOM-->
+                <div class="butt-info">
                 <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
 
 
 
+        <!--CARDS SECTION -->
 
+
+        <section id="membership-list" class="all-member">
+            <h2>Membership Details</h2>
+            <!--NON PROFIT-->
+            <div class="memeber-status">
+                <h3>Non Profit</h3>
+                <button id="non-buttom" onclick="openDialog('nonprofit')"><span class="info">Learn More</span></button>
+            </div>
+
+            <!--BRONZE-->
+            <div class="memeber-status">
+                <h3>Bronze</h3>
+                <button id="bronze-buttom" onclick="openDialog('bronze')"><span class="info">Learn More</span></button>
+            </div>
+            
+            <!--SILVER-->
+            <div class="memeber-status">
+                <h3>Silver</h3>
+                <button id="silver-status" onclick="openDialog('silver')" ><span class="info">Learn More</span></button>
+            </div>
+            
+            <!--GOLD-->
+            <div class="memeber-status">
+                <h3>Gold</h3>
+                <button id="gold-status" onclick="openDialog('gold')"><span class="info">Learn More</span></button>
+            </div>
+
+        </section>
+    
+    </div>
+
+        <section class="modals-cards">
+            <!--non profit-->
+            <dialog id="nonprofit">
+                <div>
+                    <button class="cancel" id="close1" onclick="closeDialog('nonprofit')"><span>X</span></button>
+                    <h3>Non-Profit</h3>
+                    <p class="price">$0 / month</p>
+                    <p class="desc">Perfect for small organizations. Free basic access to events and essential resources.</p>
+                </div>
+            </dialog>
+
+            <!--BRONZE-->
+            <dialog id="bronze">
+                <div>
+                    <button class="cancel" id="close2" onclick="closeDialog('bronze')"><span>X</span></button>
+                    <h3>Bronze</h3>
+                    <p class="price">$25 / month</p>
+                    <p class="desc">Start gaining visibility: event discounts and limited promotional opportunities.</p>
+                </div>
+            </dialog>
+
+            <!--silver-->
+            <dialog id="silver">
+                <div>
+                    <button class="cancel" id="close3" onclick="closeDialog('silver')"><span>X</span></button>
+                    <h3>Silver</h3>
+                    <p class="price">$60 / month</p>
+                    <p class="desc">More exposure and benefits: exclusive training sessions and occasional homepage highlights.</p>
+                </div>
+            </dialog>
+            
+            <!--gold-->
+            <dialog id="gold">
+                <div>
+                    <button class="cancel" id="close4" onclick="closeDialog('gold')"><span>X</span></button>
+                    <h3>Gold</h3>
+                    <p class="price">$120 / month</p>
+                    <p class="desc">Top-tier membership: VIP events, premium advertising, and full access to all benefits.</p>
+                </div>
+
+            </dialog>
+        </section>
+
+    
 
 
     </main>

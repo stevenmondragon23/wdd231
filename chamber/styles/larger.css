@@ -73,7 +73,12 @@ header{
     justify-content: center;
 }
 
-
+.centerpart{
+    padding: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
 
 
 
