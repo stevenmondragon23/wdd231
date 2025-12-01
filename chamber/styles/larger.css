@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem){
+@media only screen and (min-width: 1025px){
 
 header , main , footer, nav {
     max-width: 1000px;
@@ -81,6 +81,15 @@ header{
 }
 
 
+/*CARDS*/
+
+
+  .cards-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
+  }
 
 
 
