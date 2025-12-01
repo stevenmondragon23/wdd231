@@ -494,3 +494,13 @@ input , textarea, select{
   height: auto;
   border-radius: .3rem;
 }
+
+
+/* SCRIPT FOR THE LAST TIME*/
+
+.hiuser{
+    background-color: var(--color-primary);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--color-secondary);
+}
