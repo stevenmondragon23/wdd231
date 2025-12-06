@@ -98,6 +98,288 @@ header span{
     background-color: aquamarine;
 }
 
+/*WAY FINDING */
+
+.navigation li.current{
+    background-color: rgb(212, 199, 199)
+}
+
+
+/*HERO IMAGE*/
+
+.heropart{
+    position: relative;
+    margin: 0;
+    padding: 0;   
+}
+
+.heropart img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    opacity: 90%;
+}
+
+
+/* FORM and thankyou page */
+
+.form-wrapper, .thankyou-wrapper {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffecec8e;
+  border: 2px solid #00221B;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  color: #00221B;
+}
+
+input, select, textarea {
+  padding: .7rem;
+  border-radius: 8px;
+  border: 2px solid #00221B;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.submit-btn, .back-btn {
+  background: #7CFF4D;
+  color: #00221B;
+  padding: .8rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .2s ease, background .2s ease;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.submit-btn:hover, .back-btn:hover {
+  background: #5cd63b;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FILTER */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+#muscle-filter {
+  padding: .6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #00221B;
+  background: #ddd;
+  color: #00221B;
+  font-weight: bold;
+}
+
+/* OPTIONS OF FILTER */
+
+#muscle-filter option {
+  background: #ddd;
+  color: black;
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+
+
+
+
+
+
+/*  GRID LAYOUT  */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+
+/*  CARD  */
+.card {
+  background: #ffecec8e; 
+  border: 2px solid #00221B; 
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+/*  CARD IMAGE  */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: .8rem;
+}
+
+/*  CARD TEXT  */
+.card h3 {
+  color: #00221B;
+  font-size: 1.3rem;
+  margin-bottom: .3rem;
+}
+
+.card p {
+  color: #000;
+  font-size: .95rem;
+  margin: .2rem 0;
+}
+
+/*  BUTTONS  */
+.card button {
+  width: 100%;
+  padding: .6rem;
+  margin-top: .5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background .2s ease, transform .2s ease;
+}
+
+
+
+
+
+/* Details button */
+.details-btn {
+  background: #00221B;
+  color: #7CFF4D;
+}
+
+.details-btn:hover {
+  background: #014233;
+  transform: scale(1.03);
+}
+
+/* Favorite button */
+.fav-btn {
+  background: #7CFF4D;
+  color: #00221B;
+}
+
+.fav-btn:hover {
+  background: #5cd63b;
+  transform: scale(1.03);
+}
+
+
+
+
+/*  MODAL BASE  */
+dialog#exercise-modal {
+  border: none;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 420px;
+  width: 90%;
+  background-color: var(--color-deep);
+  color: #7CFF4D;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  animation: fadeIn .25s ease;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/*  MODAL CONTENT  */
+#modal-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+#modal-content h2 {
+  margin-bottom: .5rem;
+  color: #7CFF4D;
+}
+
+#modal-content p {
+  margin: .3rem 0;
+  color: #fff;
+}
+
+/*  CLOSE BUTTON  */
+#close-modal {
+  background: #7CFF4D;
+  color: #00221B;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background .2s ease;
+}
+
+#close-modal:hover {
+  background: #5cd63b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -144,3 +426,5 @@ footer {
     margin: 10px 0 0 0;
     
 }
+
+

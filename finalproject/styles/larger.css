@@ -1,0 +1,33 @@
+@media only screen and (min-width: 1025px){
+
+header , main , footer, nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    grid-template-columns: 24px auto auto;
+}
+
+
+    /*HAMBURGUER RESPONSIVE*/
+
+.hamburguer{
+    display: none;
+}
+
+.navigation{
+    display: block;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation ul {
+    display: flex;
+    border: 1px solid black;
+}
+
+.navigation a{
+    border: 1px solid #ddd;
+}
+
+}

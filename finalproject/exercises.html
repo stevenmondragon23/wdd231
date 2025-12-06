@@ -39,7 +39,6 @@
     <script src="scripts/random.js" defer></script>
     <script src="scripts/wheater.js" defer></script>
     <script type="module" src="scripts/exercises.js"></script>
-    <script type="module" src="scripts/form.js"></script>
     
 
 
@@ -77,8 +76,8 @@
         
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="exercises.html">Exercises</a></li>
                 <li><a href="routines.html">Routines</a></li>
             </ul>
         </nav>
@@ -90,39 +89,20 @@
             </picture>
         </section>
 
-        <section class="form-wrapper">
-            
-            <h1>Contact IronFocus</h1>
-            <p>Fill out the form below and we’ll get back to you.</p>
+        <!-- EXERCISES CARDS -->
+         <div class="filter-container">
+            <select id="muscle-filter">
+            <option value="all">All Muscles</option>
+            </select>
+         </div>
 
-            <form id="contact-form" action="thankyou.html" method="get">
 
-                <label for="fname">First Name *</label>
-                <input type="text" id="fname" name="fname" required>
+        <div id="exercise-container" class="grid"></div>
 
-                <label for="lname">Last Name *</label>
-                <input type="text" id="lname" name="lname" required>
-
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="goal">Training Goal *</label>
-                <select id="goal" name="goal" required>
-                <option value="">Select your goal</option>
-                <option value="strength">Increase Strength</option>
-                <option value="muscle">Build Muscle</option>
-                <option value="fatloss">Lose Fat</option>
-                <option value="endurance">Improve Endurance</option>
-                </select>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" placeholder="Tell us more..."></textarea>
-
-                <button type="submit" class="submit-btn">Send</button>
-            </form>
-
-            
-        </section>
+        <dialog id="exercise-modal">
+        <button id="close-modal">Close</button>
+        <div id="modal-content"></div>
+        </dialog>
 
         
 
