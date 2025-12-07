@@ -14,7 +14,7 @@
     "muscle": "Chest",
     "difficulty": "Beginner",
     "equipment": "Dumbbells",
-    "image": "images/dumbbell-flyes.jpg",
+    "image": "images/dumbbell-flyes.webp",
     "description": "Isolates the chest muscles and improves chest expansion."
   },
   {
@@ -23,7 +23,7 @@
     "muscle": "Chest",
     "difficulty": "Beginner",
     "equipment": "Bodyweight",
-    "image": "images/pushups.jpg",
+    "image": "images/pushups.webp",
     "description": "Bodyweight exercise that strengthens chest, shoulders, and triceps."
   },
   {
@@ -32,7 +32,7 @@
     "muscle": "Legs",
     "difficulty": "Intermediate",
     "equipment": "Barbell",
-    "image": "images/squat.jpg",
+    "image": "images/squat.webp",
     "description": "Compound movement that targets quads, glutes, and core."
   },
   {
@@ -41,7 +41,7 @@
     "muscle": "Legs",
     "difficulty": "Beginner",
     "equipment": "Machine",
-    "image": "images/leg-press.jpg",
+    "image": "images/leg-press.webp",
     "description": "Strengthens quads and glutes with a guided movement."
   },
   {
@@ -50,7 +50,7 @@
     "muscle": "Legs",
     "difficulty": "Intermediate",
     "equipment": "Dumbbells",
-    "image": "images/lunges.jpg",
+    "image": "images/lunges.webp",
     "description": "Targets glutes, quads, and improves balance."
   },
   {
@@ -59,7 +59,7 @@
     "muscle": "Back",
     "difficulty": "Advanced",
     "equipment": "Barbell",
-    "image": "images/deadlift.jpg",
+    "image": "images/deadlift.webp",
     "description": "Strengthens the entire posterior chain."
   },
   {
@@ -68,7 +68,7 @@
     "muscle": "Back",
     "difficulty": "Beginner",
     "equipment": "Machine",
-    "image": "images/lat-pulldown.jpg",
+    "image": "images/lat-pulldown.webp",
     "description": "Targets the lats and upper back."
   },
   {
@@ -77,7 +77,7 @@
     "muscle": "Back",
     "difficulty": "Intermediate",
     "equipment": "Dumbbells",
-    "image": "images/dumbbell-row.jpg",
+    "image": "images/dumbbell-row.webp",
     "description": "Strengthens lats, rhomboids, and rear delts."
   },
   {
@@ -86,7 +86,7 @@
     "muscle": "Shoulders",
     "difficulty": "Intermediate",
     "equipment": "Barbell",
-    "image": "images/overhead-press.jpg",
+    "image": "images/overhead-press.webp",
     "description": "Compound movement for deltoids and triceps."
   },
   {
@@ -95,7 +95,7 @@
     "muscle": "Shoulders",
     "difficulty": "Beginner",
     "equipment": "Dumbbells",
-    "image": "images/lateral-raises.jpg",
+    "image": "images/lateral-raises.webp",
     "description": "Isolates the lateral deltoids."
   },
   {
@@ -104,7 +104,7 @@
     "muscle": "Shoulders",
     "difficulty": "Beginner",
     "equipment": "Dumbbells",
-    "image": "images/rear-delt-fly.jpg",
+    "image": "images/rear-delt-fly.webp",
     "description": "Strengthens rear delts and improves posture."
   },
   {
@@ -113,7 +113,7 @@
     "muscle": "Biceps",
     "difficulty": "Beginner",
     "equipment": "Dumbbells",
-    "image": "images/bicep-curl.jpg",
+    "image": "images/bicep-curl.webp",
     "description": "Isolates the biceps for strength and size."
   },
   {
@@ -122,7 +122,7 @@
     "muscle": "Biceps",
     "difficulty": "Intermediate",
     "equipment": "Dumbbells",
-    "image": "images/hammer-curl.jpg",
+    "image": "images/hammer-curl.webp",
     "description": "Targets brachialis and forearms."
   },
   {
@@ -131,7 +131,7 @@
     "muscle": "Biceps",
     "difficulty": "Advanced",
     "equipment": "Bodyweight",
-    "image": "images/chinups.jpg",
+    "image": "images/chinups.webp",
     "description": "Compound movement involving biceps and back."
   },
   {
@@ -140,7 +140,7 @@
     "muscle": "Triceps",
     "difficulty": "Intermediate",
     "equipment": "Bodyweight",
-    "image": "images/dips.jpg",
+    "image": "images/dips.webp",
     "description": "Strengthens triceps, chest, and shoulders."
   },
   {
@@ -149,7 +149,7 @@
     "muscle": "Triceps",
     "difficulty": "Beginner",
     "equipment": "Machine",
-    "image": "images/tricep-pushdown.jpg",
+    "image": "images/tricep-pushdown.webp",
     "description": "Isolates the triceps with a controlled movement."
   },
   {
@@ -158,7 +158,7 @@
     "muscle": "Triceps",
     "difficulty": "BeginBeginner",
     "equipment": "Dumbbells",
-    "image": "images/tricep-kickback.jpg",
+    "image": "images/tricep-kickback.webp",
     "description": "Targets the long head of the triceps."
   },
   {
@@ -167,7 +167,7 @@
     "muscle": "Core",
     "difficulty": "Beginner",
     "equipment": "Bodyweight",
-    "image": "images/plank.jpg",
+    "image": "images/plank.webp",
     "description": "Strengthens abs, lower back, and stability."
   },
   {
@@ -176,7 +176,7 @@
     "muscle": "Core",
     "difficulty": "Beginner",
     "equipment": "Bodyweight",
-    "image": "images/crunch.jpg",
+    "image": "images/crunch.webp",
     "description": "Classic exercise for the rectus abdominis."
   }
 ]

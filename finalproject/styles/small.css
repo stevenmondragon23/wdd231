@@ -388,7 +388,11 @@ dialog#exercise-modal {
 
 
 
+/* FEATURED */
 
+.featured{
+  margin: 10px;
+}
 
 
 
@@ -428,7 +432,7 @@ dialog#exercise-modal {
   flex-direction: row;
   list-style: none;
   text-align: center;
-  gap: 1.5rem;
+  gap: 2px;
 }
 
 .missing-muscles ul li{
