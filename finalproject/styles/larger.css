@@ -30,4 +30,30 @@ header{
     border: 1px solid #ddd;
 }
 
+.missing-muscles ul{
+  align-content: center;
+}
+
+  .form-presentation {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+  }
+
+  .presentation-content {
+    max-width: 450px;
+    text-align: left;
+  }
+
+  .presentation-content img {
+    max-width: 400px;
+  }
+
+
+
+
+
+
 }
