@@ -395,9 +395,11 @@ dialog#exercise-modal {
 }
 
 
+/*EXER TITLE*/
 
-
-
+.exertitle{
+  text-align: center;
+}
 
 
 
